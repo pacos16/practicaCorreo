@@ -15,13 +15,12 @@ public class FragmentPresentacion extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.fragment_sample, container, false);
-        tvSample = layout.findViewById(R.id.tvSample);
-        tvSample.setText("Presentación");
+        View layout = inflater.inflate(R.layout.rv_layout, container, false);
+
         Bundle b = getArguments();
         if(b != null) {
             if(b.containsKey("SHARE")) {
-                tvSample.setText(b.getString("SHARE"));
+
             }
         }
         return layout;

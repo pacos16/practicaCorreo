@@ -5,34 +5,34 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_recibidos"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Cámara"/>
+            android:title="Recibidos"/>
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_enviados"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Galería"/>
+            android:title="Enviados"/>
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_no_leidos"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Presentación"/>
+            android:title="No leídos"/>
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_enviar"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Herramientas"/>
+            android:title="Enviar"/>
     </group>
 
     <item android:title="Social">
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_share"
+                    android:id="@+id/nav_spam"
                     android:icon="@drawable/ic_menu_share"
-                    android:title="Compartir"/>
+                    android:title="Spam"/>
                 <item
-                    android:id="@+id/nav_send"
+                    android:id="@+id/nav_papelera"
                     android:icon="@drawable/ic_menu_send"
-                    android:title="Enviar"/>
+                    android:title="Papelera"/>
             </group>
         </menu>
     </item>

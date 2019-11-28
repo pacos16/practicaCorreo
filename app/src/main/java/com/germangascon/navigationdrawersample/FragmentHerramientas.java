@@ -15,9 +15,8 @@ public class FragmentHerramientas extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View layout = inflater.inflate(R.layout.fragment_sample, container, false);
-        tvSample = layout.findViewById(R.id.tvSample);
-        tvSample.setText("Herramientas");
+        View layout = inflater.inflate(R.layout.rv_layout, container, false);
+
         return layout;
     }
 }
